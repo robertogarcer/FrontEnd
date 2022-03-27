@@ -1,0 +1,53 @@
+.photo{
+    font-style: italic;
+    float: left;
+    
+    width: 100px;
+    padding: 50px;
+    margin-bottom: 100px;
+    background-color: rgb(47, 137, 240);
+    border-radius: 25px;
+}
+
+.pokemonInfos{
+    font: Roboto
+    font-style: italic;
+    float: left;
+    width: 200px;
+    padding: 50px;
+    margin-bottom: 100px;
+    background-color: rgb(247, 21, 21);
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .poke{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+
+  .searchBox{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    background-color: black ;
+  }
+
+  .pokemonInfos p{
+      color:bisque;
+      font-size: smaller;
+      line-height: 10px;
+      text-align: center;
+  }
+
+  .pokemonInfos h1{
+      text-align: center;
+      font-size: larger;
+  }
